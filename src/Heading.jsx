@@ -2,10 +2,10 @@ import React from 'react'
 import Components from './Components'
 import './Heading.css'
 
-function Heading() {
+function Heading({heading}) {
   return (
-    <div>
-      <h1 className='heading'>heading box</h1>
+    <div className='exhibhit'>
+      <h1 className='exhibhitheading'>{heading}</h1>
       < Components/>
     </div>
   )

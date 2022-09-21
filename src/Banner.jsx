@@ -1,10 +1,10 @@
 import React from 'react'
 import './Banner.css'
 
-function Banner() {
+function Banner({BannerText}) {
   return (
     <div>
-      <h1 className='banner'>Site Tittle</h1>
+      <h1 className='banner'>{BannerText}</h1>
     </div>
   )
 }
