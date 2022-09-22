@@ -1,6 +1,7 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 import Banner from './Banner'
+import Fetchapi from './Fetchapi'
 import Heading from './Heading'
 
 
@@ -11,5 +12,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
   <Heading heading="I am an exhibhit"/>
   <Heading heading="I am an exhibhit too"/>
   <Heading heading="don't forget me i am an exhibhit too"/>
+  
+  <Fetchapi/>
   </>
 )
